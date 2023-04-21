@@ -1,4 +1,4 @@
-package com.reactnativebase.newarchitecture;
+package com.blackmarket.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.reactnativebase.BuildConfig;
-import com.reactnativebase.newarchitecture.components.MainComponentsRegistry;
-import com.reactnativebase.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.blackmarket.BuildConfig;
+import com.blackmarket.newarchitecture.components.MainComponentsRegistry;
+import com.blackmarket.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

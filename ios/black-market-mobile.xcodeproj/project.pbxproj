@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReactNativeBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeBaseTests.m */; };
+		00E356F31AD99517003FC87E /* black-market-mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* black-market-mobileTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		423F6AAB2888EE8900927F6A /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423F6AAA2888EE8900927F6A /* BootSplash.storyboard */; };
-		7BD1A54057EA747B02F2880A /* libPods-ReactNativeBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1478BB1924F79D4BF5041AD /* libPods-ReactNativeBase.a */; };
-		E5DB18E2600904217A10F528 /* libPods-ReactNativeBase-ReactNativeBaseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 752FC68F2E7B2A56E9903872 /* libPods-ReactNativeBase-ReactNativeBaseTests.a */; };
+		72D3D51AE4EFF3053EA30E2B /* libPods-black-market-mobile-black-market-mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9470D1BD09676A038A777D42 /* libPods-black-market-mobile-black-market-mobileTests.a */; };
+		AD5A0AF051C79B57AA998F15 /* libPods-black-market-mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF2D13FF5A171751D15F3A2 /* libPods-black-market-mobile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,41 +22,41 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReactNativeBase;
+			remoteInfo = "black-market-mobile";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ReactNativeBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* black-market-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "black-market-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactNativeBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeBaseTests.m; sourceTree = "<group>"; };
-		0B2FB079886E2E07EF52B766 /* Pods-ReactNativeBase.release-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.release-staging.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.release-staging.xcconfig"; sourceTree = "<group>"; };
-		10FA6E9C9B57BD66AF7ED892 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase-ReactNativeBaseTests.debug-qa.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests.debug-qa.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReactNativeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeBase/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ReactNativeBase/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeBase/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeBase/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeBase/main.m; sourceTree = "<group>"; };
-		2D98FE07C6B13EC18104DEB0 /* Pods-ReactNativeBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.release.xcconfig"; sourceTree = "<group>"; };
-		4088188EB0721E64B5210F85 /* Pods-ReactNativeBase.release-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.release-develop.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.release-develop.xcconfig"; sourceTree = "<group>"; };
-		423F6AAA2888EE8900927F6A /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = ReactNativeBase/BootSplash.storyboard; sourceTree = "<group>"; };
-		58F5C8775B6DCB2FF489DAA4 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase-ReactNativeBaseTests.debug-staging.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests.debug-staging.xcconfig"; sourceTree = "<group>"; };
-		5CDA9629E36EA1F3653DB76B /* Pods-ReactNativeBase.debug-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.debug-develop.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.debug-develop.xcconfig"; sourceTree = "<group>"; };
-		6E7163E37D59D8272B457BE3 /* Pods-ReactNativeBase-ReactNativeBaseTests.release-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase-ReactNativeBaseTests.release-develop.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests.release-develop.xcconfig"; sourceTree = "<group>"; };
-		752FC68F2E7B2A56E9903872 /* libPods-ReactNativeBase-ReactNativeBaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeBase-ReactNativeBaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* black-market-mobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "black-market-mobileTests.m"; sourceTree = "<group>"; };
+		03032AA5F2D7651D9BE228B5 /* Pods-black-market-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile.release.xcconfig"; path = "Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		0F66D0AE3A2F3289A3F8C7FB /* Pods-black-market-mobile.release-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile.release-develop.xcconfig"; path = "Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile.release-develop.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* black-market-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "black-market-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "black-market-mobile/AppDelegate.h"; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "black-market-mobile/AppDelegate.mm"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "black-market-mobile/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "black-market-mobile/Info.plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "black-market-mobile/main.m"; sourceTree = "<group>"; };
+		18EF0A3180D3803A1C64E541 /* Pods-black-market-mobile-black-market-mobileTests.release-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile-black-market-mobileTests.release-develop.xcconfig"; path = "Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests.release-develop.xcconfig"; sourceTree = "<group>"; };
+		1FF2D13FF5A171751D15F3A2 /* libPods-black-market-mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-black-market-mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423F6AAA2888EE8900927F6A /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = "black-market-mobile/BootSplash.storyboard"; sourceTree = "<group>"; };
+		64E229A506CBA4422C3006A0 /* Pods-black-market-mobile-black-market-mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile-black-market-mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66C52576B814FABAEE7990DE /* Pods-black-market-mobile.release-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile.release-staging.xcconfig"; path = "Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile.release-staging.xcconfig"; sourceTree = "<group>"; };
+		6CBCB6036C70F2C7827D3657 /* Pods-black-market-mobile-black-market-mobileTests.release-qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile-black-market-mobileTests.release-qa.xcconfig"; path = "Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests.release-qa.xcconfig"; sourceTree = "<group>"; };
+		76229998C255E35776BCA685 /* Pods-black-market-mobile.release-qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile.release-qa.xcconfig"; path = "Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile.release-qa.xcconfig"; sourceTree = "<group>"; };
+		7920DD7019A5CE38BC248C62 /* Pods-black-market-mobile.debug-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile.debug-staging.xcconfig"; path = "Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile.debug-staging.xcconfig"; sourceTree = "<group>"; };
+		8911FAC277464C878BEE0E35 /* Pods-black-market-mobile.debug-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile.debug-develop.xcconfig"; path = "Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile.debug-develop.xcconfig"; sourceTree = "<group>"; };
 		8DA0F89C28753F1D00FBDAD7 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		A3C6EE425C6ED4821CD75913 /* Pods-ReactNativeBase-ReactNativeBaseTests.release-qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase-ReactNativeBaseTests.release-qa.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests.release-qa.xcconfig"; sourceTree = "<group>"; };
-		B1478BB1924F79D4BF5041AD /* libPods-ReactNativeBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5DCD0C2CD7A4B7B8A87983A /* Pods-ReactNativeBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.debug.xcconfig"; sourceTree = "<group>"; };
-		C7A30F87ECB61AF77FE26C5E /* Pods-ReactNativeBase-ReactNativeBaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase-ReactNativeBaseTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C97DED9F85EB1229B530B897 /* Pods-ReactNativeBase.debug-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.debug-staging.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.debug-staging.xcconfig"; sourceTree = "<group>"; };
-		CC1AD22F0BEECFD57F17646D /* Pods-ReactNativeBase-ReactNativeBaseTests.release-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase-ReactNativeBaseTests.release-staging.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests.release-staging.xcconfig"; sourceTree = "<group>"; };
-		CF36C667D69068A63B280F67 /* Pods-ReactNativeBase.release-qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.release-qa.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.release-qa.xcconfig"; sourceTree = "<group>"; };
-		D859135CC0729FDFB486DC51 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase-ReactNativeBaseTests.debug-develop.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests.debug-develop.xcconfig"; sourceTree = "<group>"; };
+		9470D1BD09676A038A777D42 /* libPods-black-market-mobile-black-market-mobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-black-market-mobile-black-market-mobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F2D64CA86066C4E33B1297 /* Pods-black-market-mobile-black-market-mobileTests.debug-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile-black-market-mobileTests.debug-develop.xcconfig"; path = "Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests.debug-develop.xcconfig"; sourceTree = "<group>"; };
+		99EA0BA90DFEB18FD2888F3D /* Pods-black-market-mobile-black-market-mobileTests.debug-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile-black-market-mobileTests.debug-staging.xcconfig"; path = "Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests.debug-staging.xcconfig"; sourceTree = "<group>"; };
+		C95A54D47F071A9FF84F70A3 /* Pods-black-market-mobile-black-market-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile-black-market-mobileTests.release.xcconfig"; path = "Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		D422A787D201E80BB86A63C5 /* Pods-black-market-mobile.debug-qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile.debug-qa.xcconfig"; path = "Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile.debug-qa.xcconfig"; sourceTree = "<group>"; };
+		E01698BEE79ED3BC13AEB940 /* Pods-black-market-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile.debug.xcconfig"; path = "Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		E5B7DD627FA54DEA828CCC3C /* Pods-black-market-mobile-black-market-mobileTests.release-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile-black-market-mobileTests.release-staging.xcconfig"; path = "Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests.release-staging.xcconfig"; sourceTree = "<group>"; };
+		ECBE8ADE6337ED1565396DBF /* Pods-black-market-mobile-black-market-mobileTests.debug-qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-black-market-mobile-black-market-mobileTests.debug-qa.xcconfig"; path = "Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests.debug-qa.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F451C5B9F8E4F7FD419ADE72 /* Pods-ReactNativeBase.debug-qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.debug-qa.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.debug-qa.xcconfig"; sourceTree = "<group>"; };
-		FFBEB644F3BABC5681DBF594 /* Pods-ReactNativeBase-ReactNativeBaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase-ReactNativeBaseTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5DB18E2600904217A10F528 /* libPods-ReactNativeBase-ReactNativeBaseTests.a in Frameworks */,
+				72D3D51AE4EFF3053EA30E2B /* libPods-black-market-mobile-black-market-mobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,20 +72,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD1A54057EA747B02F2880A /* libPods-ReactNativeBase.a in Frameworks */,
+				AD5A0AF051C79B57AA998F15 /* libPods-black-market-mobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReactNativeBaseTests */ = {
+		00E356EF1AD99517003FC87E /* black-market-mobileTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactNativeBaseTests.m */,
+				00E356F21AD99517003FC87E /* black-market-mobileTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactNativeBaseTests;
+			path = "black-market-mobileTests";
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -96,7 +96,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReactNativeBase */ = {
+		13B07FAE1A68108700A75B9A /* black-market-mobile */ = {
 			isa = PBXGroup;
 			children = (
 				423F6AAA2888EE8900927F6A /* BootSplash.storyboard */,
@@ -106,17 +106,41 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ReactNativeBase;
+			name = "black-market-mobile";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				B1478BB1924F79D4BF5041AD /* libPods-ReactNativeBase.a */,
-				752FC68F2E7B2A56E9903872 /* libPods-ReactNativeBase-ReactNativeBaseTests.a */,
+				1FF2D13FF5A171751D15F3A2 /* libPods-black-market-mobile.a */,
+				9470D1BD09676A038A777D42 /* libPods-black-market-mobile-black-market-mobileTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7001399379ED528C27A9A5C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E01698BEE79ED3BC13AEB940 /* Pods-black-market-mobile.debug.xcconfig */,
+				8911FAC277464C878BEE0E35 /* Pods-black-market-mobile.debug-develop.xcconfig */,
+				7920DD7019A5CE38BC248C62 /* Pods-black-market-mobile.debug-staging.xcconfig */,
+				D422A787D201E80BB86A63C5 /* Pods-black-market-mobile.debug-qa.xcconfig */,
+				03032AA5F2D7651D9BE228B5 /* Pods-black-market-mobile.release.xcconfig */,
+				0F66D0AE3A2F3289A3F8C7FB /* Pods-black-market-mobile.release-develop.xcconfig */,
+				66C52576B814FABAEE7990DE /* Pods-black-market-mobile.release-staging.xcconfig */,
+				76229998C255E35776BCA685 /* Pods-black-market-mobile.release-qa.xcconfig */,
+				64E229A506CBA4422C3006A0 /* Pods-black-market-mobile-black-market-mobileTests.debug.xcconfig */,
+				98F2D64CA86066C4E33B1297 /* Pods-black-market-mobile-black-market-mobileTests.debug-develop.xcconfig */,
+				99EA0BA90DFEB18FD2888F3D /* Pods-black-market-mobile-black-market-mobileTests.debug-staging.xcconfig */,
+				ECBE8ADE6337ED1565396DBF /* Pods-black-market-mobile-black-market-mobileTests.debug-qa.xcconfig */,
+				C95A54D47F071A9FF84F70A3 /* Pods-black-market-mobile-black-market-mobileTests.release.xcconfig */,
+				18EF0A3180D3803A1C64E541 /* Pods-black-market-mobile-black-market-mobileTests.release-develop.xcconfig */,
+				E5B7DD627FA54DEA828CCC3C /* Pods-black-market-mobile-black-market-mobileTests.release-staging.xcconfig */,
+				6CBCB6036C70F2C7827D3657 /* Pods-black-market-mobile-black-market-mobileTests.release-qa.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -130,12 +154,12 @@
 			isa = PBXGroup;
 			children = (
 				8DA0F89C28753F1D00FBDAD7 /* Config.xcconfig */,
-				13B07FAE1A68108700A75B9A /* ReactNativeBase */,
+				13B07FAE1A68108700A75B9A /* black-market-mobile */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactNativeBaseTests */,
+				00E356EF1AD99517003FC87E /* black-market-mobileTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7001399379ED528C27A9A5C0 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -145,80 +169,57 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeBase.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeBaseTests.xctest */,
+				13B07F961A680F5B00A75B9A /* black-market-mobile.app */,
+				00E356EE1AD99517003FC87E /* black-market-mobileTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B5DCD0C2CD7A4B7B8A87983A /* Pods-ReactNativeBase.debug.xcconfig */,
-				5CDA9629E36EA1F3653DB76B /* Pods-ReactNativeBase.debug-develop.xcconfig */,
-				C97DED9F85EB1229B530B897 /* Pods-ReactNativeBase.debug-staging.xcconfig */,
-				F451C5B9F8E4F7FD419ADE72 /* Pods-ReactNativeBase.debug-qa.xcconfig */,
-				2D98FE07C6B13EC18104DEB0 /* Pods-ReactNativeBase.release.xcconfig */,
-				4088188EB0721E64B5210F85 /* Pods-ReactNativeBase.release-develop.xcconfig */,
-				0B2FB079886E2E07EF52B766 /* Pods-ReactNativeBase.release-staging.xcconfig */,
-				CF36C667D69068A63B280F67 /* Pods-ReactNativeBase.release-qa.xcconfig */,
-				C7A30F87ECB61AF77FE26C5E /* Pods-ReactNativeBase-ReactNativeBaseTests.debug.xcconfig */,
-				D859135CC0729FDFB486DC51 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-develop.xcconfig */,
-				58F5C8775B6DCB2FF489DAA4 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-staging.xcconfig */,
-				10FA6E9C9B57BD66AF7ED892 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-qa.xcconfig */,
-				FFBEB644F3BABC5681DBF594 /* Pods-ReactNativeBase-ReactNativeBaseTests.release.xcconfig */,
-				6E7163E37D59D8272B457BE3 /* Pods-ReactNativeBase-ReactNativeBaseTests.release-develop.xcconfig */,
-				CC1AD22F0BEECFD57F17646D /* Pods-ReactNativeBase-ReactNativeBaseTests.release-staging.xcconfig */,
-				A3C6EE425C6ED4821CD75913 /* Pods-ReactNativeBase-ReactNativeBaseTests.release-qa.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactNativeBaseTests */ = {
+		00E356ED1AD99517003FC87E /* black-market-mobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeBaseTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "black-market-mobileTests" */;
 			buildPhases = (
-				C09DE9D89F64AFC639D8D1AE /* [CP] Check Pods Manifest.lock */,
+				4414F89A6E25071AA364311E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				309B3963DB92217ACCF57808 /* [CP] Embed Pods Frameworks */,
-				C3592C437C1F977C7AB89F7A /* [CP] Copy Pods Resources */,
+				04F46297657C43F273FAB4D4 /* [CP] Embed Pods Frameworks */,
+				E1EAF1E7A918E578EC88984A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactNativeBaseTests;
-			productName = ReactNativeBaseTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactNativeBaseTests.xctest */;
+			name = "black-market-mobileTests";
+			productName = "black-market-mobileTests";
+			productReference = 00E356EE1AD99517003FC87E /* black-market-mobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReactNativeBase */ = {
+		13B07F861A680F5B00A75B9A /* black-market-mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeBase" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "black-market-mobile" */;
 			buildPhases = (
-				D61C9DC15EB511D18DA04762 /* [CP] Check Pods Manifest.lock */,
+				02530B9EF66DF55210FF7B27 /* [CP] Check Pods Manifest.lock */,
 				8DA0F89D2875429600FBDAD7 /* Setting Environment variables */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A4B6A27D46301994BA815C8A /* [CP] Embed Pods Frameworks */,
-				6E1F3497EDF92DD352175F7A /* [CP] Copy Pods Resources */,
+				F14952D2322651D2071F6369 /* [CP] Embed Pods Frameworks */,
+				32749F32FD6DCEDACF8BF333 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ReactNativeBase;
-			productName = ReactNativeBase;
-			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeBase.app */;
+			name = "black-market-mobile";
+			productName = "black-market-mobile";
+			productReference = 13B07F961A680F5B00A75B9A /* black-market-mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeBase" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "black-market-mobile" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -251,8 +252,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReactNativeBase */,
-				00E356ED1AD99517003FC87E /* ReactNativeBaseTests */,
+				13B07F861A680F5B00A75B9A /* black-market-mobile */,
+				00E356ED1AD99517003FC87E /* black-market-mobileTests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,38 +292,82 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		309B3963DB92217ACCF57808 /* [CP] Embed Pods Frameworks */ = {
+		02530B9EF66DF55210FF7B27 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-black-market-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04F46297657C43F273FAB4D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6E1F3497EDF92DD352175F7A /* [CP] Copy Pods Resources */ = {
+		32749F32FD6DCEDACF8BF333 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4414F89A6E25071AA364311E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-black-market-mobile-black-market-mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8DA0F89D2875429600FBDAD7 /* Setting Environment variables */ = {
@@ -344,82 +389,38 @@
 			shellPath = /bin/sh;
 			shellScript = "echo \"Setting RN Environmnent - Envfile: ${ENVIRONMENT_FILE}\"\ncp \"${PROJECT_DIR}/../${ENVIRONMENT_FILE}\" \"${PROJECT_DIR}/../.env\"  # replace .env.ENVIRONMENT for your file\n\"${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfig/BuildXCConfig.rb\" \"${SRCROOT}/..\" \"${SRCROOT}/tmp.xcconfig\"\n";
 		};
-		A4B6A27D46301994BA815C8A /* [CP] Embed Pods Frameworks */ = {
+		E1EAF1E7A918E578EC88984A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C09DE9D89F64AFC639D8D1AE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeBase-ReactNativeBaseTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C3592C437C1F977C7AB89F7A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeBase-ReactNativeBaseTests/Pods-ReactNativeBase-ReactNativeBaseTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile-black-market-mobileTests/Pods-black-market-mobile-black-market-mobileTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D61C9DC15EB511D18DA04762 /* [CP] Check Pods Manifest.lock */ = {
+		F14952D2322651D2071F6369 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeBase-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-black-market-mobile/Pods-black-market-mobile-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -448,7 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactNativeBaseTests.m in Sources */,
+				00E356F31AD99517003FC87E /* black-market-mobileTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +467,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReactNativeBase */;
+			target = 13B07F861A680F5B00A75B9A /* black-market-mobile */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,14 +475,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7A30F87ECB61AF77FE26C5E /* Pods-ReactNativeBase-ReactNativeBaseTests.debug.xcconfig */;
+			baseConfigurationReference = 64E229A506CBA4422C3006A0 /* Pods-black-market-mobile-black-market-mobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeBaseTests/Info.plist;
+				INFOPLIST_FILE = "black-market-mobileTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,17 +496,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBase.app/ReactNativeBase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/black-market-mobile.app/black-market-mobile";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFBEB644F3BABC5681DBF594 /* Pods-ReactNativeBase-ReactNativeBaseTests.release.xcconfig */;
+			baseConfigurationReference = C95A54D47F071A9FF84F70A3 /* Pods-black-market-mobile-black-market-mobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeBaseTests/Info.plist;
+				INFOPLIST_FILE = "black-market-mobileTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -519,13 +520,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBase.app/ReactNativeBase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/black-market-mobile.app/black-market-mobile";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5DCD0C2CD7A4B7B8A87983A /* Pods-ReactNativeBase.debug.xcconfig */;
+			baseConfigurationReference = E01698BEE79ED3BC13AEB940 /* Pods-black-market-mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -534,7 +535,7 @@
 				DEVELOPMENT_TEAM = WNU857N39T;
 				ENABLE_BITCODE = NO;
 				ENVIRONMENT_FILE = .env.prod;
-				INFOPLIST_FILE = ReactNativeBase/Info.plist;
+				INFOPLIST_FILE = "black-market-mobile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -545,8 +546,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.react-native-base";
-				PRODUCT_NAME = ReactNativeBase;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.black-market-mobile";
+				PRODUCT_NAME = "black-market-mobile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -555,7 +556,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D98FE07C6B13EC18104DEB0 /* Pods-ReactNativeBase.release.xcconfig */;
+			baseConfigurationReference = 03032AA5F2D7651D9BE228B5 /* Pods-black-market-mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -563,7 +564,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WNU857N39T;
 				ENVIRONMENT_FILE = .env.prod;
-				INFOPLIST_FILE = ReactNativeBase/Info.plist;
+				INFOPLIST_FILE = "black-market-mobile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,8 +575,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.react-native-base";
-				PRODUCT_NAME = ReactNativeBase;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.black-market-mobile";
+				PRODUCT_NAME = "black-market-mobile";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -798,7 +799,7 @@
 		};
 		8DA0F88B2875292300FBDAD7 /* Debug-QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F451C5B9F8E4F7FD419ADE72 /* Pods-ReactNativeBase.debug-qa.xcconfig */;
+			baseConfigurationReference = D422A787D201E80BB86A63C5 /* Pods-black-market-mobile.debug-qa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-QA";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -807,7 +808,7 @@
 				DEVELOPMENT_TEAM = WNU857N39T;
 				ENABLE_BITCODE = NO;
 				ENVIRONMENT_FILE = .env.qa;
-				INFOPLIST_FILE = ReactNativeBase/Info.plist;
+				INFOPLIST_FILE = "black-market-mobile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -818,8 +819,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.react-native-base.qa";
-				PRODUCT_NAME = "RNBase - QA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.black-market-mobile.qa";
+				PRODUCT_NAME = "RNBase - black-market-mobile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -828,14 +829,14 @@
 		};
 		8DA0F88C2875292300FBDAD7 /* Debug-QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10FA6E9C9B57BD66AF7ED892 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-qa.xcconfig */;
+			baseConfigurationReference = ECBE8ADE6337ED1565396DBF /* Pods-black-market-mobile-black-market-mobileTests.debug-qa.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeBaseTests/Info.plist;
+				INFOPLIST_FILE = "black-market-mobileTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -849,7 +850,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBase.app/ReactNativeBase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/black-market-mobile.app/black-market-mobile";
 			};
 			name = "Debug-QA";
 		};
@@ -929,7 +930,7 @@
 		};
 		8DA0F88E2875292B00FBDAD7 /* Debug-Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C97DED9F85EB1229B530B897 /* Pods-ReactNativeBase.debug-staging.xcconfig */;
+			baseConfigurationReference = 7920DD7019A5CE38BC248C62 /* Pods-black-market-mobile.debug-staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -938,7 +939,7 @@
 				DEVELOPMENT_TEAM = WNU857N39T;
 				ENABLE_BITCODE = NO;
 				ENVIRONMENT_FILE = .env.staging;
-				INFOPLIST_FILE = ReactNativeBase/Info.plist;
+				INFOPLIST_FILE = "black-market-mobile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -949,8 +950,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.react-native-base.staging";
-				PRODUCT_NAME = "RNBase - Staging";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.black-market-mobile.staging";
+				PRODUCT_NAME = "RNBase - black-market-mobile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -959,14 +960,14 @@
 		};
 		8DA0F88F2875292B00FBDAD7 /* Debug-Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58F5C8775B6DCB2FF489DAA4 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-staging.xcconfig */;
+			baseConfigurationReference = 99EA0BA90DFEB18FD2888F3D /* Pods-black-market-mobile-black-market-mobileTests.debug-staging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeBaseTests/Info.plist;
+				INFOPLIST_FILE = "black-market-mobileTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -980,7 +981,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBase.app/ReactNativeBase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/black-market-mobile.app/black-market-mobile";
 			};
 			name = "Debug-Staging";
 		};
@@ -1060,7 +1061,7 @@
 		};
 		8DA0F8912875293100FBDAD7 /* Debug-Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CDA9629E36EA1F3653DB76B /* Pods-ReactNativeBase.debug-develop.xcconfig */;
+			baseConfigurationReference = 8911FAC277464C878BEE0E35 /* Pods-black-market-mobile.debug-develop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Develop";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -1069,7 +1070,7 @@
 				DEVELOPMENT_TEAM = WNU857N39T;
 				ENABLE_BITCODE = NO;
 				ENVIRONMENT_FILE = .env.dev;
-				INFOPLIST_FILE = ReactNativeBase/Info.plist;
+				INFOPLIST_FILE = "black-market-mobile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1080,8 +1081,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.react-native-base.dev";
-				PRODUCT_NAME = "RNBase - Develop";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.black-market-mobile.dev";
+				PRODUCT_NAME = "RNBase - black-market-mobile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1090,14 +1091,14 @@
 		};
 		8DA0F8922875293100FBDAD7 /* Debug-Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D859135CC0729FDFB486DC51 /* Pods-ReactNativeBase-ReactNativeBaseTests.debug-develop.xcconfig */;
+			baseConfigurationReference = 98F2D64CA86066C4E33B1297 /* Pods-black-market-mobile-black-market-mobileTests.debug-develop.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeBaseTests/Info.plist;
+				INFOPLIST_FILE = "black-market-mobileTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1111,7 +1112,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBase.app/ReactNativeBase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/black-market-mobile.app/black-market-mobile";
 			};
 			name = "Debug-Develop";
 		};
@@ -1184,7 +1185,7 @@
 		};
 		8DA0F8942875293F00FBDAD7 /* Release-QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF36C667D69068A63B280F67 /* Pods-ReactNativeBase.release-qa.xcconfig */;
+			baseConfigurationReference = 76229998C255E35776BCA685 /* Pods-black-market-mobile.release-qa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-QA";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -1192,7 +1193,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WNU857N39T;
 				ENVIRONMENT_FILE = .env.qa;
-				INFOPLIST_FILE = ReactNativeBase/Info.plist;
+				INFOPLIST_FILE = "black-market-mobile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1203,8 +1204,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.react-native-base.qa";
-				PRODUCT_NAME = "RNBase - QA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.black-market-mobile.qa";
+				PRODUCT_NAME = "RNBase - black-market-mobile";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1212,11 +1213,11 @@
 		};
 		8DA0F8952875293F00FBDAD7 /* Release-QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C6EE425C6ED4821CD75913 /* Pods-ReactNativeBase-ReactNativeBaseTests.release-qa.xcconfig */;
+			baseConfigurationReference = 6CBCB6036C70F2C7827D3657 /* Pods-black-market-mobile-black-market-mobileTests.release-qa.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeBaseTests/Info.plist;
+				INFOPLIST_FILE = "black-market-mobileTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1230,7 +1231,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBase.app/ReactNativeBase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/black-market-mobile.app/black-market-mobile";
 			};
 			name = "Release-QA";
 		};
@@ -1303,7 +1304,7 @@
 		};
 		8DA0F8972875294600FBDAD7 /* Release-Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B2FB079886E2E07EF52B766 /* Pods-ReactNativeBase.release-staging.xcconfig */;
+			baseConfigurationReference = 66C52576B814FABAEE7990DE /* Pods-black-market-mobile.release-staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -1311,7 +1312,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WNU857N39T;
 				ENVIRONMENT_FILE = .env.staging;
-				INFOPLIST_FILE = ReactNativeBase/Info.plist;
+				INFOPLIST_FILE = "black-market-mobile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1322,8 +1323,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.react-native-base.staging";
-				PRODUCT_NAME = "RNBase - Staging";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.black-market-mobile.staging";
+				PRODUCT_NAME = "RNBase - black-market-mobile";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1331,11 +1332,11 @@
 		};
 		8DA0F8982875294600FBDAD7 /* Release-Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC1AD22F0BEECFD57F17646D /* Pods-ReactNativeBase-ReactNativeBaseTests.release-staging.xcconfig */;
+			baseConfigurationReference = E5B7DD627FA54DEA828CCC3C /* Pods-black-market-mobile-black-market-mobileTests.release-staging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeBaseTests/Info.plist;
+				INFOPLIST_FILE = "black-market-mobileTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1349,7 +1350,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBase.app/ReactNativeBase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/black-market-mobile.app/black-market-mobile";
 			};
 			name = "Release-Staging";
 		};
@@ -1422,7 +1423,7 @@
 		};
 		8DA0F89A2875296000FBDAD7 /* Release-Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4088188EB0721E64B5210F85 /* Pods-ReactNativeBase.release-develop.xcconfig */;
+			baseConfigurationReference = 0F66D0AE3A2F3289A3F8C7FB /* Pods-black-market-mobile.release-develop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Develop";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -1430,7 +1431,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WNU857N39T;
 				ENVIRONMENT_FILE = .env.dev;
-				INFOPLIST_FILE = ReactNativeBase/Info.plist;
+				INFOPLIST_FILE = "black-market-mobile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1441,8 +1442,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.react-native-base.dev";
-				PRODUCT_NAME = "RNBase - Develop";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rootstrap.black-market-mobile.dev";
+				PRODUCT_NAME = "RNBase - black-market-mobile";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1450,11 +1451,11 @@
 		};
 		8DA0F89B2875296000FBDAD7 /* Release-Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E7163E37D59D8272B457BE3 /* Pods-ReactNativeBase-ReactNativeBaseTests.release-develop.xcconfig */;
+			baseConfigurationReference = 18EF0A3180D3803A1C64E541 /* Pods-black-market-mobile-black-market-mobileTests.release-develop.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeBaseTests/Info.plist;
+				INFOPLIST_FILE = "black-market-mobileTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1468,14 +1469,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBase.app/ReactNativeBase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/black-market-mobile.app/black-market-mobile";
 			};
 			name = "Release-Develop";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeBaseTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "black-market-mobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1490,7 +1491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeBase" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "black-market-mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1505,7 +1506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeBase" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "black-market-mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
