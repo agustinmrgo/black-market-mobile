@@ -8,7 +8,7 @@ import { WelcomePropTypes } from './types';
 const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: { navigate } }) => {
   const isDarkMode = useColorScheme() === 'dark';
 
-  const onSignInPress = () => navigate('SignIn');
+  const onLogInPress = () => navigate('LogIn');
   const onSignUpPress = () => navigate('SignUp');
 
   return (
@@ -17,8 +17,8 @@ const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: 
       <Button
         testID="dummy-button"
         accessibilityState={{ disabled: false }}
-        title="Sign In"
-        onPress={onSignInPress}
+        title="Log in"
+        onPress={onLogInPress}
       />
       <Button
         testID="dummy-button"

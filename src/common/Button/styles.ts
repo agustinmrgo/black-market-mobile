@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-import { BLUE, GREY_01, GREY_02, WHITE } from 'constants/styles';
+import { BLACK, GREY_01, GREY_02, WHITE } from 'constants/styles';
 
 const styles = StyleSheet.create({
   container: {
-    borderRadius: 22,
-    backgroundColor: BLUE,
+    borderRadius: 8,
+    backgroundColor: BLACK,
     width: '80%',
     margin: 10,
   },

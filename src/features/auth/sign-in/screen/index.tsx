@@ -3,12 +3,12 @@ import { View } from 'react-native';
 
 import Logo from '../components/Logo';
 import styles from './styles';
-import { SignInPropTypes } from './types';
+import { LogInPropTypes } from './types';
 
-const SignInScreen: React.FunctionComponent<SignInPropTypes> = () => (
+const LogInScreen: React.FunctionComponent<LogInPropTypes> = () => (
   <View style={styles.container}>
     <Logo />
   </View>
 );
 
-export default SignInScreen;
+export default LogInScreen;
