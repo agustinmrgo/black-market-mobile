@@ -5,13 +5,20 @@ import { Text } from 'react-native';
 import styles from './styles';
 import { ButtonProps } from './types';
 
-const Button: React.FunctionComponent<ButtonProps> = ({ title, disabled = false, ...props }) => (
+const Button: React.FunctionComponent<ButtonProps> = ({
+  title,
+  disabled = false,
+  darkTheme = true,
+  ...props
+}) => (
   <Pressable
-    containerStyle={styles.container}
+    containerStyle={[styles.container, darkTheme ? styles.darkContainer : styles.lightContainer]}
     disabledStyle={styles.disabledContainer}
     disabled={disabled}
     {...props}>
-    <Text style={[styles.title, disabled && styles.disabledTitle]}>{title}</Text>
+    <Text style={[disabled && styles.disabledTitle, darkTheme ? styles.darkTitle : styles.title]}>
+      {title}
+    </Text>
   </Pressable>
 );
 

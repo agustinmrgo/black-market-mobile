@@ -12,7 +12,7 @@ const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 
 const AuthNavigator: React.FunctionComponent = () => (
   <AuthStack.Navigator initialRouteName={'Welcome'}>
-    <AuthStack.Screen name={'Welcome'} component={WelcomeScreen} />
+    <AuthStack.Screen name={'Welcome'} component={WelcomeScreen} options={{ headerShown: false }} />
     <AuthStack.Screen name={'LogIn'} component={LogInScreen} />
     <AuthStack.Screen name={'SignUp'} component={SignUpScreen} />
   </AuthStack.Navigator>
