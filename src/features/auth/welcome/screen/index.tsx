@@ -27,7 +27,6 @@ const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: 
 
   const handleLinkPress = () => {
     Linking.openURL('https://google.com');
-    // navigate('ForgotPassword');
   };
 
   return (
@@ -35,7 +34,7 @@ const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: 
       source={require('../../../../assets/welcome-background.png')}
       style={styles.backgroundImage}>
       <SafeAreaView style={styles.pageContainer}>
-        <StatusBar barStyle={!isDarkMode ? 'light-content' : 'dark-content'} />
+        <StatusBar barStyle={isDarkMode ? 'dark-content' : 'light-content'} />
         <View style={styles.viewContainer}>
           <Image style={styles.image} source={require('../../../../assets/welcome-logo.png')} />
           <View style={styles.signInForm}>
