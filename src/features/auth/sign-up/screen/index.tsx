@@ -7,6 +7,7 @@ import { View } from 'react-native';
 import AuthImageBackground from 'features/auth/background';
 import AuthContainer from 'features/auth/container';
 
+import { useRegisterUser } from '../../../../network/queries/auth-queries';
 import styles from './styles';
 import { SignUpPropTypes } from './types';
 
@@ -15,8 +16,18 @@ const SignUpScreen: React.FunctionComponent<SignUpPropTypes> = () => {
   const [fullName, setFullName] = useState('');
   const [password, setPassword] = useState('');
 
+  const { mutate } = useRegisterUser({
+    onSuccess: data => {
+      console.log('Registration successful:', data);
+    },
+    onError: error => {
+      console.error(error.message);
+    },
+  });
+
   const handleSignUp = () => {
-    // handle sign-up logic here
+    console.error('HANDLE SIGNUP');
+    mutate({ email, password1: password, password2: password });
   };
 
   return (
