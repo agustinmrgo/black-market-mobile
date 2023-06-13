@@ -3,6 +3,7 @@ import Input from 'common/Input';
 import Label from 'common/Label';
 import React, { useState } from 'react';
 import { View } from 'react-native';
+import Toast from 'react-native-toast-message';
 
 import AuthImageBackground from 'features/auth/background';
 import AuthContainer from 'features/auth/container';
@@ -13,54 +14,69 @@ import { SignUpPropTypes } from './types';
 
 const SignUpScreen: React.FunctionComponent<SignUpPropTypes> = () => {
   const [email, setEmail] = useState('');
-  const [fullName, setFullName] = useState('');
   const [password, setPassword] = useState('');
+  const [emailError, setEmailError] = useState('');
+  const [passwordError, setPasswordError] = useState('');
 
   const { mutate } = useRegisterUser({
     onSuccess: data => {
-      console.log('Registration successful:', data);
+      setEmailError('');
+      setPasswordError('');
+      Toast.show({
+        type: 'success',
+        text1: JSON.stringify(data.detail),
+        text2: 'Check your email for confirmation link',
+      });
     },
     onError: error => {
-      console.error(error.message);
+      const { email: emailResponse, password1 } = error?.response?.data;
+      console.error('ERRORRR', error?.response?.data);
+      if (emailResponse) {
+        setEmailError(emailResponse[0]);
+      }
+      if (password1) {
+        setPasswordError(password1[0]);
+      }
+      if (!emailResponse) {
+        setEmailError('');
+      }
+      if (!password1) {
+        setPasswordError('');
+      }
     },
   });
 
-  const handleSignUp = () => {
-    console.error('HANDLE SIGNUP');
-    mutate({ email, password1: password, password2: password });
-  };
+  const handleSignUp = () => mutate({ email, password1: password, password2: password });
 
   return (
     <AuthImageBackground>
       <AuthContainer showLogo>
         <View style={styles.signUpForm}>
-          <Label>Email</Label>
-          <Input
-            style={styles.input}
-            placeholder="Type your email"
-            onChangeText={setEmail}
-            value={email}
-            keyboardType="email-address"
-            autoCapitalize="none"
-          />
-          <Label>Full Name</Label>
-          <Input
-            style={styles.input}
-            placeholder="Type your full name"
-            onChangeText={setFullName}
-            value={fullName}
-            autoCapitalize="words"
-          />
-          <Label>Password</Label>
-          <Input
-            style={styles.input}
-            placeholder="Type your password"
-            onChangeText={setPassword}
-            value={password}
-            secureTextEntry={true}
-          />
+          <View style={styles.inputContainer}>
+            <Label>Email</Label>
+            <Input
+              style={styles.input}
+              placeholder="Type your email"
+              onChangeText={setEmail}
+              value={email}
+              keyboardType="email-address"
+              autoCapitalize="none"
+            />
+            {emailError ? <Label style={styles.errorLabel}>{emailError}</Label> : null}
+          </View>
+          <View style={styles.inputContainer}>
+            <Label>Password</Label>
+            <Input
+              style={styles.input}
+              placeholder="Type your password"
+              onChangeText={setPassword}
+              value={password}
+              secureTextEntry
+            />
+            {passwordError ? <Label style={styles.errorLabel}>{passwordError}</Label> : null}
+          </View>
         </View>
-        <Button title="Sign Up" onPress={handleSignUp} />
+        <Button title="Sign Up" onPress={handleSignUp} disabled={!email || !password} />
       </AuthContainer>
     </AuthImageBackground>
   );
