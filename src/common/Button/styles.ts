@@ -1,19 +1,27 @@
 import { StyleSheet } from 'react-native';
 
-import { BLUE, GREY_01, GREY_02, WHITE } from 'constants/styles';
+import { BLACK, GREY_01, GREY_02, WHITE } from 'constants/styles';
 
 const styles = StyleSheet.create({
   container: {
-    borderRadius: 22,
-    backgroundColor: BLUE,
-    width: '80%',
-    margin: 10,
+    width: '100%',
+    borderRadius: 8,
+  },
+  darkContainer: {
+    backgroundColor: BLACK,
+  },
+  lightContainer: {
+    backgroundColor: WHITE,
+    borderWidth: 1,
   },
   disabledContainer: {
     backgroundColor: GREY_01,
     borderColor: WHITE,
   },
   title: {
+    color: BLACK,
+  },
+  darkTitle: {
     color: WHITE,
   },
   disabledTitle: {

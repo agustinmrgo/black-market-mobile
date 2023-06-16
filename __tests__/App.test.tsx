@@ -13,7 +13,7 @@ describe('App', () => {
 
   it('elements should be accessible', () => {
     const { getByText, getAllByRole } = render(<App />);
-    const text = getByText('Sign In');
+    const text = getByText('Log in');
     const authScreenButtons = getAllByRole('button');
     expect(text).toBeAccessible();
 
