@@ -30,7 +30,6 @@ const SignUpScreen: React.FunctionComponent<SignUpPropTypes> = () => {
     },
     onError: error => {
       const { email: emailResponse, password1 } = error?.response?.data;
-      console.error('ERRORRR', error?.response?.data);
       if (emailResponse) {
         setEmailError(emailResponse[0]);
       }

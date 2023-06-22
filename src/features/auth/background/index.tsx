@@ -9,7 +9,6 @@ export default ({ children }: { children: ReactNode }) => {
       source={require('../../../assets/welcome-background.png')}
       style={styles.backgroundImage}>
       <SafeAreaView style={styles.pageContainer}>{children}</SafeAreaView>
-      {/* {children} */}
     </ImageBackground>
   );
 };

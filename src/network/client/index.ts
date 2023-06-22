@@ -6,7 +6,6 @@ export const MULTIPART_FORM_DATA = 'multipart/form-data';
 export const CONTENT_TYPE = 'Content-Type';
 
 const AxiosClient = axios.create({
-  // baseURL: 'https://black-market-juan-rs.herokuapp.com',
   baseURL: Config.API_URL,
   headers: {
     Accept: APPLICATION_JSON,
