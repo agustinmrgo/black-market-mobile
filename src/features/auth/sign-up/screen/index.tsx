@@ -10,9 +10,11 @@ import AuthContainer from 'features/auth/container';
 
 import { useRegisterUser } from '../../../../network/queries/auth-queries';
 import styles from './styles';
-import { SignUpPropTypes } from './types';
+import { SignUpScreenPropTypes } from './types';
 
-const SignUpScreen: React.FunctionComponent<SignUpPropTypes> = () => {
+const SignUpScreen: React.FunctionComponent<SignUpScreenPropTypes> = ({
+  navigation: { navigate },
+}) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [emailError, setEmailError] = useState('');
@@ -27,6 +29,7 @@ const SignUpScreen: React.FunctionComponent<SignUpPropTypes> = () => {
         text1: JSON.stringify(data.detail),
         text2: 'Check your email for confirmation link',
       });
+      navigate('SignUpSuccessful');
     },
     onError: error => {
       const { email: emailResponse, password1 } = error?.response?.data;

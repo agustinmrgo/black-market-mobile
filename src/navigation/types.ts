@@ -4,6 +4,7 @@ const AuthStackScreens = {
   Welcome: 'Welcome',
   LogIn: 'LogIn',
   SignUp: 'SignUp',
+  SignUpSuccessfull: 'SignUpSuccessful',
 } as const;
 
 const MainStackScreens = {

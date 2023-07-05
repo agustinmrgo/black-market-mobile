@@ -10,4 +10,10 @@ const useRegisterUser = ({ onError, onSuccess }: AxiosResult<RegistrationRespons
     onSuccess,
   });
 
-export { useRegisterUser };
+const useLoginUser = ({ onError, onSuccess }: AxiosResult<RegistrationResponse>) =>
+  useMutation(AuthService.login, {
+    onError,
+    onSuccess,
+  });
+
+export { useRegisterUser, useLoginUser };

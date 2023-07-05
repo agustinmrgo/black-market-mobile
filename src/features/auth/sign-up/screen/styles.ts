@@ -1,11 +1,14 @@
 import { StyleSheet } from 'react-native';
 
+import { ERROR_TEXT } from 'constants/styles';
+
 const styles = StyleSheet.create({
   inputContainer: {
     marginBottom: 4,
   },
   errorLabel: {
-    color: 'red',
+    color: ERROR_TEXT,
+    fontWeight: 'bold',
     marginTop: 2,
     marginBottom: 8,
   },

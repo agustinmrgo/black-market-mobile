@@ -7,3 +7,19 @@ export type RegistrationRequest = {
 export type RegistrationResponse = {
   detail: string;
 };
+
+export type LoginRequest = {
+  email: string;
+  password: string;
+};
+
+export type LoginResponse = {
+  access_token: string;
+  refresh_token: string;
+  user: {
+    pk: number;
+    email: string;
+    first_name: string;
+    last_name: string;
+  };
+};

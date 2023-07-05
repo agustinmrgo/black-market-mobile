@@ -19,6 +19,11 @@ const styles = StyleSheet.create({
     borderColor: WHITE,
   },
   title: {
+    fontWeight: '700',
+    lineHeight: 22,
+    fontSize: 16,
+  },
+  lightTitle: {
     color: BLACK,
   },
   darkTitle: {

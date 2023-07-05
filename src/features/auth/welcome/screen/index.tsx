@@ -1,24 +1,35 @@
 import Button from 'common/Button';
 import Input from 'common/Input';
 import Label from 'common/Label';
-import { useState } from 'react';
-import React from 'react';
+import React, { useState } from 'react';
 import { Linking, StatusBar, Text, View, useColorScheme } from 'react-native';
 
 import AuthImageBackground from 'features/auth/background';
 import AuthContainer from 'features/auth/container';
 
+import { useLoginUser } from '../../../../network/queries/auth-queries';
 import styles from './styles';
 import { WelcomePropTypes } from './types';
 
 const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: { navigate } }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
 
   const isDarkMode = useColorScheme() === 'dark';
 
-  const onLogInPress = () => navigate('LogIn');
-  const onSignUpPress = () => navigate('SignUp');
+  const { mutate } = useLoginUser({
+    onSuccess: data => {
+      setError('');
+      console.log(data);
+    },
+    onError: () => {
+      setError('Your email or password are incorrect.');
+    },
+  });
+
+  const onLogInPress = () => mutate({ email, password });
+  const onSignUpPress = () => navigate('SignUpSuccessful');
 
   const handleLinkPress = () => {
     Linking.openURL('https://google.com');
@@ -50,6 +61,7 @@ const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: 
             title="Log in"
             onPress={onLogInPress}
           />
+          {error ? <Label style={styles.errorLabel}>{error}</Label> : null}
         </View>
         <Text onPress={handleLinkPress} style={styles.forgotPassword}>
           I forgot my password
@@ -58,7 +70,6 @@ const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: 
       <AuthContainer style={styles.signUpSection}>
         <Text style={styles.signUpHeading}>Don't have an account?</Text>
         <Button
-          testID="dummy-button"
           accessibilityState={{ disabled: false }}
           title="Sign Up"
           onPress={onSignUpPress}

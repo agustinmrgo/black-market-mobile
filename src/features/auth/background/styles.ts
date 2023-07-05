@@ -7,8 +7,6 @@ export default StyleSheet.create({
   },
   pageContainer: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     margin: 16,
   },
 });
