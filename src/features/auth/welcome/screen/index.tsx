@@ -29,7 +29,7 @@ const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: 
   });
 
   const onLogInPress = () => mutate({ email, password });
-  const onSignUpPress = () => navigate('SignUpSuccessful');
+  const onSignUpPress = () => navigate('SignUp');
 
   const handleLinkPress = () => {
     Linking.openURL('https://google.com');
