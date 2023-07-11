@@ -5,6 +5,10 @@ module.exports = {
       'module-resolver',
       {
         root: ['./src'],
+        alias: {
+          '@common': './src/common',
+          '@assets': './src/assets',
+        },
         extensions: [
           '.android.ts',
           '.android.tsx',
