@@ -5,7 +5,7 @@ import { Text } from 'react-native';
 import styles from './styles';
 import { ButtonProps } from './types';
 
-const Button: React.FunctionComponent<ButtonProps> = ({
+export const Button: React.FunctionComponent<ButtonProps> = ({
   title,
   disabled = false,
   darkTheme = true,
@@ -26,5 +26,3 @@ const Button: React.FunctionComponent<ButtonProps> = ({
     </Text>
   </Pressable>
 );
-
-export default Button;

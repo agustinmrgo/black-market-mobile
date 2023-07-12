@@ -1,5 +1,4 @@
-import Button from 'common/Button';
-import Label from 'common/Label';
+import { Button, Label } from 'common';
 import React from 'react';
 import { View } from 'react-native';
 

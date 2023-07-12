@@ -1,6 +1,4 @@
-import Button from 'common/Button';
-import Input from 'common/Input';
-import Label from 'common/Label';
+import { Button, Input, Label } from 'common';
 import React, { useState } from 'react';
 import { Linking, StatusBar, Text, View, useColorScheme } from 'react-native';
 
