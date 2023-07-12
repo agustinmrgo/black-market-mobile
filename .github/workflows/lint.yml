@@ -1,7 +1,7 @@
 name: lint
 on:
   pull_request:
-    types: [ opened, synchronize ]
+    types: [opened, synchronize]
   push:
     branches:
       - main
@@ -19,7 +19,7 @@ jobs:
       # This needs to match Node version in package.json
       - uses: actions/setup-node@v1
         with:
-          node-version: '^14.5.0'
+          node-version: '^16.20.0'
 
       - name: Install Dependencies
         run: yarn

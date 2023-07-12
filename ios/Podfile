@@ -30,6 +30,8 @@ target 'black-market-mobile' do
   target 'black-market-mobileTests' do
     inherit! :complete
     # Pods for testing
+    pod 'react-native-config', :path => '../node_modules/react-native-config'
+
   end
 
   # Enables Flipper.

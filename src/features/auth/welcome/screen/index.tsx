@@ -1,17 +1,9 @@
-import Button from 'common/Button';
-import Input from 'common/Input';
-import { useState } from 'react';
-import React from 'react';
-import {
-  Image,
-  ImageBackground,
-  Linking,
-  SafeAreaView,
-  StatusBar,
-  Text,
-  View,
-  useColorScheme,
-} from 'react-native';
+import { Button, Input, Label } from 'common';
+import React, { useState } from 'react';
+import { Linking, StatusBar, Text, View, useColorScheme } from 'react-native';
+
+import AuthImageBackground from 'features/auth/background';
+import AuthContainer from 'features/auth/container';
 
 import styles from './styles';
 import { WelcomePropTypes } from './types';
@@ -30,52 +22,47 @@ const WelcomeScreen: React.FunctionComponent<WelcomePropTypes> = ({ navigation: 
   };
 
   return (
-    <ImageBackground
-      source={require('../../../../assets/welcome-background.png')}
-      style={styles.backgroundImage}>
-      <SafeAreaView style={styles.pageContainer}>
-        <StatusBar barStyle={isDarkMode ? 'dark-content' : 'light-content'} />
-        <View style={styles.viewContainer}>
-          <Image style={styles.image} source={require('../../../../assets/welcome-logo.png')} />
-          <View style={styles.signInForm}>
-            <Text style={styles.label}>Email</Text>
-            <Input
-              style={styles.input}
-              placeholder="Type your password"
-              onChangeText={setEmail}
-              value={email}
-            />
-            <Text style={styles.label}>Password</Text>
-            <Input
-              style={styles.input}
-              placeholder="Type your email"
-              onChangeText={setPassword}
-              value={password}
-              secureTextEntry={true}
-            />
-            <Button
-              testID="dummy-button"
-              accessibilityState={{ disabled: false }}
-              title="Log in"
-              onPress={onLogInPress}
-            />
-          </View>
-          <Text onPress={handleLinkPress} style={styles.forgotPassword}>
-            I forgot my password
-          </Text>
-        </View>
-        <View style={[styles.viewContainer, styles.signUpSection]}>
-          <Text style={styles.signUpHeading}>Don't have an account?</Text>
+    <AuthImageBackground>
+      <StatusBar barStyle={isDarkMode ? 'dark-content' : 'light-content'} />
+      <AuthContainer showLogo>
+        <View style={styles.signInForm}>
+          <Label>Email</Label>
+          <Input
+            style={styles.input}
+            placeholder="Type your password"
+            onChangeText={setEmail}
+            value={email}
+          />
+          <Label>Password</Label>
+          <Input
+            style={styles.input}
+            placeholder="Type your email"
+            onChangeText={setPassword}
+            value={password}
+            secureTextEntry={true}
+          />
           <Button
             testID="dummy-button"
             accessibilityState={{ disabled: false }}
-            title="Sign Up"
-            onPress={onSignUpPress}
-            darkTheme={false}
+            title="Log in"
+            onPress={onLogInPress}
           />
         </View>
-      </SafeAreaView>
-    </ImageBackground>
+        <Text onPress={handleLinkPress} style={styles.forgotPassword}>
+          I forgot my password
+        </Text>
+      </AuthContainer>
+      <AuthContainer style={styles.signUpSection}>
+        <Text style={styles.signUpHeading}>Don't have an account?</Text>
+        <Button
+          testID="dummy-button"
+          accessibilityState={{ disabled: false }}
+          title="Sign Up"
+          onPress={onSignUpPress}
+          darkTheme={false}
+        />
+      </AuthContainer>
+    </AuthImageBackground>
   );
 };
 
