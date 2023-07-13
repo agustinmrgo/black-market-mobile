@@ -4,3 +4,4 @@ export const GREY_02 = '#737373';
 export const WHITE = '#FFFFFF';
 export const BLACK = '#000000';
 export const LINK_BLUE = '#076CE0';
+export const ERROR_TEXT = '#D42F1A';

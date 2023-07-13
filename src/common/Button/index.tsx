@@ -16,7 +16,12 @@ export const Button: React.FunctionComponent<ButtonProps> = ({
     disabledStyle={styles.disabledContainer}
     disabled={disabled}
     {...props}>
-    <Text style={[disabled && styles.disabledTitle, darkTheme ? styles.darkTitle : styles.title]}>
+    <Text
+      style={[
+        styles.title,
+        disabled && styles.disabledTitle,
+        darkTheme ? styles.darkTitle : styles.lightTitle,
+      ]}>
       {title}
     </Text>
   </Pressable>

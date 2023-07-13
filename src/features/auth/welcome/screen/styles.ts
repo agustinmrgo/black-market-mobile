@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LINK_BLUE } from 'constants/styles';
+import { ERROR_TEXT, LINK_BLUE } from 'constants/styles';
 
 export default StyleSheet.create({
   imageContainer: {
@@ -24,6 +24,12 @@ export default StyleSheet.create({
   forgotPassword: {
     color: LINK_BLUE,
     fontSize: 16,
+    fontWeight: 'bold',
+  },
+  errorLabel: {
+    marginTop: 16,
+    textAlign: 'center',
+    color: ERROR_TEXT,
     fontWeight: 'bold',
   },
 });
